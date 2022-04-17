@@ -15,7 +15,7 @@ the_call <- function(){
   tes <- split(tiny_samp, seq(nrow(tiny_samp)))
   
   # Then plug that into google api
-  key = "AIzaSyA42KMTo3MwHoIKPYibkwdGIgUtB90ffl4"
+  key = ""
   go_points <- lapply(tes,function(x){
     doc = mp_directions(
       origin = x$geometry1[1],
